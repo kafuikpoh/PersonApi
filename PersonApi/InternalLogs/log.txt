@@ -1,0 +1,254 @@
+08/16/2021 07:36:05 Application starting up
+08/16/2021 07:44:43 Application starting up
+08/16/2021 11:10:33 Application starting up
+08/16/2021 11:11:37 HTTP "GET" "/" responded 404 in 37.6529 ms
+08/16/2021 11:11:50 You called the GET endpoint
+08/16/2021 11:11:50 The value of i is 0
+08/16/2021 11:11:50 The value of i is 1
+08/16/2021 11:11:50 The value of i is 2
+08/16/2021 11:11:50 The value of i is 3
+08/16/2021 11:11:50 The value of i is 4
+08/16/2021 11:11:50 The value of i is 5
+08/16/2021 11:11:50 The value of i is 6
+08/16/2021 11:11:50 The value of i is 7
+08/16/2021 11:11:50 The value of i is 8
+08/16/2021 11:11:50 The value of i is 9
+08/16/2021 11:11:50 The value of i is 10
+08/16/2021 11:11:50 The value of i is 11
+08/16/2021 11:11:50 The value of i is 12
+08/16/2021 11:11:50 The value of i is 13
+08/16/2021 11:11:50 The value of i is 14
+08/16/2021 11:11:50 The value of i is 15
+08/16/2021 11:11:50 The value of i is 16
+08/16/2021 11:11:50 The value of i is 17
+08/16/2021 11:11:50 The value of i is 18
+08/16/2021 11:11:50 The value of i is 19
+08/16/2021 11:11:50 The value of i is 20
+08/16/2021 11:11:50 The value of i is 21
+08/16/2021 11:11:50 The value of i is 22
+08/16/2021 11:11:50 The value of i is 23
+08/16/2021 11:11:50 The value of i is 24
+08/16/2021 11:11:50 The value of i is 25
+08/16/2021 11:11:50 The value of i is 26
+08/16/2021 11:11:50 The value of i is 27
+08/16/2021 11:11:50 The value of i is 28
+08/16/2021 11:11:50 The value of i is 29
+08/16/2021 11:11:50 The value of i is 30
+08/16/2021 11:11:50 The value of i is 31
+08/16/2021 11:11:50 The value of i is 32
+08/16/2021 11:11:50 The value of i is 33
+08/16/2021 11:11:50 The value of i is 34
+08/16/2021 11:11:50 The value of i is 35
+08/16/2021 11:11:50 The value of i is 36
+08/16/2021 11:11:50 The value of i is 37
+08/16/2021 11:11:50 The value of i is 38
+08/16/2021 11:11:50 The value of i is 39
+08/16/2021 11:11:50 The value of i is 40
+08/16/2021 11:11:50 The value of i is 41
+08/16/2021 11:11:50 The value of i is 42
+08/16/2021 11:11:50 The value of i is 43
+08/16/2021 11:11:50 The value of i is 44
+08/16/2021 11:11:50 The value of i is 45
+08/16/2021 11:11:50 The value of i is 46
+08/16/2021 11:11:50 The value of i is 47
+08/16/2021 11:11:50 The value of i is 48
+08/16/2021 11:11:50 The value of i is 49
+08/16/2021 11:11:50 The value of i is 50
+08/16/2021 11:11:50 The value of i is 51
+08/16/2021 11:11:50 The value of i is 52
+08/16/2021 11:11:50 The value of i is 53
+08/16/2021 11:11:50 The value of i is 54
+08/16/2021 11:11:50 The value of i is 55
+08/16/2021 11:11:50 We caught this exception in the Get WeatherForecast call
+System.Exception: This is our test exception
+   at PersonApi.Controllers.WeatherForecastController.Get() in /Users/kafuikpoh/Projects/PersonApi/PersonApi/Controllers/WeatherForecastController.cs:line 37
+08/16/2021 11:11:50 HTTP "GET" "/weatherforecast" responded 200 in 259.4425 ms
+08/16/2021 11:11:51 HTTP "GET" "/favicon.ico" responded 404 in 0.0424 ms
+08/16/2021 11:30:11 Application starting up
+08/16/2021 11:30:35 You called the GET endpoint
+08/16/2021 11:30:35 The value of i is 0
+08/16/2021 11:30:35 The value of i is 1
+08/16/2021 11:30:35 The value of i is 2
+08/16/2021 11:30:35 The value of i is 3
+08/16/2021 11:30:35 The value of i is 4
+08/16/2021 11:30:35 The value of i is 5
+08/16/2021 11:30:35 The value of i is 6
+08/16/2021 11:30:35 The value of i is 7
+08/16/2021 11:30:35 The value of i is 8
+08/16/2021 11:30:35 The value of i is 9
+08/16/2021 11:30:35 The value of i is 10
+08/16/2021 11:30:35 The value of i is 11
+08/16/2021 11:30:35 The value of i is 12
+08/16/2021 11:30:35 The value of i is 13
+08/16/2021 11:30:35 The value of i is 14
+08/16/2021 11:30:35 The value of i is 15
+08/16/2021 11:30:35 The value of i is 16
+08/16/2021 11:30:35 The value of i is 17
+08/16/2021 11:30:35 The value of i is 18
+08/16/2021 11:30:35 The value of i is 19
+08/16/2021 11:30:35 The value of i is 20
+08/16/2021 11:30:35 The value of i is 21
+08/16/2021 11:30:35 The value of i is 22
+08/16/2021 11:30:35 The value of i is 23
+08/16/2021 11:30:35 The value of i is 24
+08/16/2021 11:30:35 The value of i is 25
+08/16/2021 11:30:35 The value of i is 26
+08/16/2021 11:30:35 The value of i is 27
+08/16/2021 11:30:35 The value of i is 28
+08/16/2021 11:30:35 The value of i is 29
+08/16/2021 11:30:35 The value of i is 30
+08/16/2021 11:30:35 The value of i is 31
+08/16/2021 11:30:35 The value of i is 32
+08/16/2021 11:30:35 The value of i is 33
+08/16/2021 11:30:35 The value of i is 34
+08/16/2021 11:30:35 The value of i is 35
+08/16/2021 11:30:35 The value of i is 36
+08/16/2021 11:30:35 The value of i is 37
+08/16/2021 11:30:35 The value of i is 38
+08/16/2021 11:30:35 The value of i is 39
+08/16/2021 11:30:35 The value of i is 40
+08/16/2021 11:30:35 The value of i is 41
+08/16/2021 11:30:35 The value of i is 42
+08/16/2021 11:30:35 The value of i is 43
+08/16/2021 11:30:35 The value of i is 44
+08/16/2021 11:30:35 The value of i is 45
+08/16/2021 11:30:35 The value of i is 46
+08/16/2021 11:30:35 The value of i is 47
+08/16/2021 11:30:35 The value of i is 48
+08/16/2021 11:30:35 The value of i is 49
+08/16/2021 11:30:35 The value of i is 50
+08/16/2021 11:30:35 The value of i is 51
+08/16/2021 11:30:35 The value of i is 52
+08/16/2021 11:30:35 The value of i is 53
+08/16/2021 11:30:35 The value of i is 54
+08/16/2021 11:30:35 The value of i is 55
+08/16/2021 11:30:35 We caught this exception in the Get WeatherForecast call
+System.Exception: This is our test exception
+   at PersonApi.Controllers.WeatherForecastController.Get() in /Users/kafuikpoh/Projects/PersonApi/PersonApi/Controllers/WeatherForecastController.cs:line 37
+08/16/2021 11:30:35 HTTP "GET" "/weatherforecast" responded 200 in 400.5095 ms
+08/16/2021 11:37:30 Application starting up
+08/16/2021 11:49:16 Application starting up
+{Timestamp:G} Application starting up
+,}{Timestamp:G} You called the GET endpoint
+,}{Timestamp:G} The value of i is 0
+,}{Timestamp:G} The value of i is 1
+,}{Timestamp:G} The value of i is 2
+,}{Timestamp:G} The value of i is 3
+,}{Timestamp:G} The value of i is 4
+,}{Timestamp:G} The value of i is 5
+,}{Timestamp:G} The value of i is 6
+,}{Timestamp:G} The value of i is 7
+,}{Timestamp:G} The value of i is 8
+,}{Timestamp:G} The value of i is 9
+,}{Timestamp:G} The value of i is 10
+,}{Timestamp:G} The value of i is 11
+,}{Timestamp:G} The value of i is 12
+,}{Timestamp:G} The value of i is 13
+,}{Timestamp:G} The value of i is 14
+,}{Timestamp:G} The value of i is 15
+,}{Timestamp:G} The value of i is 16
+,}{Timestamp:G} The value of i is 17
+,}{Timestamp:G} The value of i is 18
+,}{Timestamp:G} The value of i is 19
+,}{Timestamp:G} The value of i is 20
+,}{Timestamp:G} The value of i is 21
+,}{Timestamp:G} The value of i is 22
+,}{Timestamp:G} The value of i is 23
+,}{Timestamp:G} The value of i is 24
+,}{Timestamp:G} The value of i is 25
+,}{Timestamp:G} The value of i is 26
+,}{Timestamp:G} The value of i is 27
+,}{Timestamp:G} The value of i is 28
+,}{Timestamp:G} The value of i is 29
+,}{Timestamp:G} The value of i is 30
+,}{Timestamp:G} The value of i is 31
+,}{Timestamp:G} The value of i is 32
+,}{Timestamp:G} The value of i is 33
+,}{Timestamp:G} The value of i is 34
+,}{Timestamp:G} The value of i is 35
+,}{Timestamp:G} The value of i is 36
+,}{Timestamp:G} The value of i is 37
+,}{Timestamp:G} The value of i is 38
+,}{Timestamp:G} The value of i is 39
+,}{Timestamp:G} The value of i is 40
+,}{Timestamp:G} The value of i is 41
+,}{Timestamp:G} The value of i is 42
+,}{Timestamp:G} The value of i is 43
+,}{Timestamp:G} The value of i is 44
+,}{Timestamp:G} The value of i is 45
+,}{Timestamp:G} The value of i is 46
+,}{Timestamp:G} The value of i is 47
+,}{Timestamp:G} The value of i is 48
+,}{Timestamp:G} The value of i is 49
+,}{Timestamp:G} The value of i is 50
+,}{Timestamp:G} The value of i is 51
+,}{Timestamp:G} The value of i is 52
+,}{Timestamp:G} The value of i is 53
+,}{Timestamp:G} The value of i is 54
+,}{Timestamp:G} The value of i is 55
+,}{Timestamp:G} We caught this exception in the Get WeatherForecast call
+System.Exception: This is our test exception
+   at PersonApi.Controllers.WeatherForecastController.Get() in /Users/kafuikpoh/Projects/PersonApi/PersonApi/Controllers/WeatherForecastController.cs:line 37
+,}{Timestamp:G} HTTP "GET" "/weatherforecast" responded 200 in 287.9000 ms
+,}08/16/2021 12:15:55 Application starting up
+08/16/2021 12:16:04 You called the GET endpoint
+08/16/2021 12:16:04 The value of i is 0
+08/16/2021 12:16:04 The value of i is 1
+08/16/2021 12:16:04 The value of i is 2
+08/16/2021 12:16:04 The value of i is 3
+08/16/2021 12:16:04 The value of i is 4
+08/16/2021 12:16:04 The value of i is 5
+08/16/2021 12:16:04 The value of i is 6
+08/16/2021 12:16:04 The value of i is 7
+08/16/2021 12:16:04 The value of i is 8
+08/16/2021 12:16:04 The value of i is 9
+08/16/2021 12:16:04 The value of i is 10
+08/16/2021 12:16:04 The value of i is 11
+08/16/2021 12:16:04 The value of i is 12
+08/16/2021 12:16:04 The value of i is 13
+08/16/2021 12:16:04 The value of i is 14
+08/16/2021 12:16:04 The value of i is 15
+08/16/2021 12:16:04 The value of i is 16
+08/16/2021 12:16:04 The value of i is 17
+08/16/2021 12:16:04 The value of i is 18
+08/16/2021 12:16:04 The value of i is 19
+08/16/2021 12:16:04 The value of i is 20
+08/16/2021 12:16:04 The value of i is 21
+08/16/2021 12:16:04 The value of i is 22
+08/16/2021 12:16:04 The value of i is 23
+08/16/2021 12:16:04 The value of i is 24
+08/16/2021 12:16:04 The value of i is 25
+08/16/2021 12:16:04 The value of i is 26
+08/16/2021 12:16:04 The value of i is 27
+08/16/2021 12:16:04 The value of i is 28
+08/16/2021 12:16:04 The value of i is 29
+08/16/2021 12:16:04 The value of i is 30
+08/16/2021 12:16:04 The value of i is 31
+08/16/2021 12:16:04 The value of i is 32
+08/16/2021 12:16:04 The value of i is 33
+08/16/2021 12:16:04 The value of i is 34
+08/16/2021 12:16:04 The value of i is 35
+08/16/2021 12:16:04 The value of i is 36
+08/16/2021 12:16:04 The value of i is 37
+08/16/2021 12:16:04 The value of i is 38
+08/16/2021 12:16:04 The value of i is 39
+08/16/2021 12:16:04 The value of i is 40
+08/16/2021 12:16:04 The value of i is 41
+08/16/2021 12:16:04 The value of i is 42
+08/16/2021 12:16:04 The value of i is 43
+08/16/2021 12:16:04 The value of i is 44
+08/16/2021 12:16:04 The value of i is 45
+08/16/2021 12:16:04 The value of i is 46
+08/16/2021 12:16:04 The value of i is 47
+08/16/2021 12:16:04 The value of i is 48
+08/16/2021 12:16:04 The value of i is 49
+08/16/2021 12:16:04 The value of i is 50
+08/16/2021 12:16:04 The value of i is 51
+08/16/2021 12:16:04 The value of i is 52
+08/16/2021 12:16:04 The value of i is 53
+08/16/2021 12:16:04 The value of i is 54
+08/16/2021 12:16:04 The value of i is 55
+08/16/2021 12:16:04 We caught this exception in the Get WeatherForecast call
+System.Exception: This is our test exception
+   at PersonApi.Controllers.WeatherForecastController.Get() in /Users/kafuikpoh/Projects/PersonApi/PersonApi/Controllers/WeatherForecastController.cs:line 37
+08/16/2021 12:16:05 HTTP "GET" "/weatherforecast" responded 200 in 318.7126 ms
