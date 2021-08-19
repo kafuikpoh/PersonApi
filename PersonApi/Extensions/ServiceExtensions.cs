@@ -1,7 +1,9 @@
 ﻿using System;
+using Contracts.Interfaces;
 using Entities.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Repositories.Repo;
 
 namespace PersonApi.Extensions
 {
@@ -26,6 +28,11 @@ namespace PersonApi.Extensions
         public static void ConfigureDapperContext(this IServiceCollection services)
         {
             services.AddSingleton<DapperContext>();
+        }
+
+        public static void ConfigureRepositories(this IServiceCollection services)
+        {
+            services.AddScoped<IPersonRepository, PersonRepository>();
         }
     }
 

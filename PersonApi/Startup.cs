@@ -35,7 +35,7 @@ namespace PersonApi
             services.ConfigureIISIntegration();
             
             services.ConfigureDapperContext();
-            services.AddScoped<IPersonRepository, PersonRepository>();
+            services.ConfigureRepositories();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -3,10 +3,10 @@ namespace Entities.Models
 {
     public class Person
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public DateTime BirthDate { get; set; }
-        public string PhoneNumber { get; set; }
+        public int Person_Id { get; set; }
+        public string FName { get; set; }
+        public string LName { get; set; }
+        public DateTime Birth_Date { get; set; }
+        public string Phone_Number { get; set; }
     }
 }
