@@ -8,11 +8,13 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using PersonApi.Extensions;
 using Serilog;
+using Microsoft.Extensions.Logging;
 
 namespace PersonApi
 {
     public class Startup
     {
+        //private readonly ILogger<Startup> _logger;
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -38,7 +40,7 @@ namespace PersonApi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)
         {
             if (env.IsDevelopment())
             {
@@ -50,8 +52,10 @@ namespace PersonApi
             {
                 app.UseHsts();
             }
+            
+            app.UseSerilogRequestLogging();
 
-
+            app.ConfigureExceptionHandler(logger);
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -63,7 +67,7 @@ namespace PersonApi
                 ForwardedHeaders = ForwardedHeaders.All
             });
 
-            app.UseSerilogRequestLogging();
+            
             app.UseRouting();
 
             app.UseAuthorization();

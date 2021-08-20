@@ -1,6 +1,5 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Contracts.Interfaces;
@@ -30,17 +29,13 @@ namespace PersonApi.Controllers
         public async Task<IActionResult> GetPeople()
         {
             _logger.LogInformation("called the GET people endpoint");
-            try
-            {
-                var people = await _repo.GetPeople();
-                var peopleDto = _mapper.Map<IEnumerable<PersonDto>>(people);
-                return Ok(peopleDto);
-            }
-            catch (Exception e)
-            {
-                _logger.LogError($"Something went wrong in the {nameof(GetPeople)} action {e}");
-                return StatusCode(500, "Internal server error");
-            }
+            
+            var people = await _repo.GetPeople();
+            var peopleDto = _mapper.Map<IEnumerable<PersonDto>>(people);
+            
+            _logger.LogInformation($"Returning {peopleDto.Count()} people objects", peopleDto);
+            return Ok(peopleDto);
+            
         }
     }
 }
