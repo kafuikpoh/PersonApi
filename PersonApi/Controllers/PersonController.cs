@@ -1,6 +1,10 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using AutoMapper;
 using Contracts.Interfaces;
+using Entities.DataTransferObjects;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -12,11 +16,13 @@ namespace PersonApi.Controllers
     {
         private readonly IPersonRepository _repo;
         private readonly ILogger<PersonController> _logger;
+        private readonly IMapper _mapper;
 
-        public PersonController(IPersonRepository repo, ILogger<PersonController> logger)
+        public PersonController(IPersonRepository repo, ILogger<PersonController> logger, IMapper mapper)
         {
             _repo = repo;
             _logger = logger;
+            _mapper = mapper;
         }
         
         // GET people
@@ -27,7 +33,8 @@ namespace PersonApi.Controllers
             try
             {
                 var people = await _repo.GetPeople();
-                return Ok(people);
+                var peopleDto = _mapper.Map<IEnumerable<PersonDto>>(people);
+                return Ok(peopleDto);
             }
             catch (Exception e)
             {

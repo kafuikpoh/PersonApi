@@ -312,3 +312,12 @@ System.InvalidOperationException: Unable to resolve service for type 'Serilog.IL
 08/19/2021 12:12:40 Application starting up
 08/19/2021 12:12:46 called the GET people endpoint
 08/19/2021 12:12:46 HTTP "GET" "/api/people" responded 200 in 572.3790 ms
+08/20/2021 08:58:23 Application starting up
+08/20/2021 08:58:31 called the GET people endpoint
+08/20/2021 08:58:32 HTTP "GET" "/api/people" responded 200 in 913.1294 ms
+08/20/2021 09:11:51 Application starting up
+08/20/2021 09:11:57 called the GET people endpoint
+08/20/2021 09:11:57 HTTP "GET" "/api/people" responded 200 in 824.8326 ms
+08/20/2021 09:12:37 Application starting up
+08/20/2021 09:12:44 called the GET people endpoint
+08/20/2021 09:12:44 HTTP "GET" "/api/people" responded 200 in 797.4465 ms
