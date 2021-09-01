@@ -37,5 +37,19 @@ namespace PersonApi.Controllers
             return Ok(peopleDto);
             
         }
+
+        [HttpGet("{id}", Name = "PersonById")]
+        public async Task<IActionResult> GetPerson(int id)
+        {
+            _logger.LogInformation("called the GET person by id endpoint");
+
+            var person = await _repo.GetPerson(id);
+            if (person == null)
+                return NotFound();
+
+            _logger.LogInformation("Returning a person object");
+            
+            return Ok(person);
+        }
     }
 }

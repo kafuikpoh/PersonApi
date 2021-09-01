@@ -605,3 +605,7 @@ System.Exception: exception
 08/20/2021 16:19:15 called the GET people endpoint
 08/20/2021 16:19:15 Returning 2 people objects
 08/20/2021 16:19:15 HTTP "GET" "/api/people" responded 200 in 822.1860 ms
+09/01/2021 08:06:22 Application starting up
+09/01/2021 08:06:33 called the GET person by id endpoint
+09/01/2021 08:06:34 Returning a person object
+09/01/2021 08:06:34 HTTP "GET" "/api/people/2" responded 200 in 952.7437 ms

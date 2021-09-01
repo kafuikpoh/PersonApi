@@ -27,5 +27,17 @@ namespace Repositories.Repo
                 return people.ToList();
             }
         }
+
+        public async Task<Person> GetPerson(int id)
+        {
+            var query = "SELECT * FROM Person where person_id = @id";
+
+            using (var connection = _context.CreateConnection())
+            {
+                var person = await connection.QuerySingleOrDefaultAsync<Person>(query, new { id });
+
+                return person;
+            }
+        }
     }
 }

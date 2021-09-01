@@ -7,5 +7,6 @@ namespace Contracts.Interfaces
     public interface IPersonRepository
     {
         public Task<IEnumerable<Person>> GetPeople();
+        public Task<Person> GetPerson(int id);
     }
 }
