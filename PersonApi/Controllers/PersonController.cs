@@ -51,5 +51,28 @@ namespace PersonApi.Controllers
             
             return Ok(person);
         }
+        
+        //create people
+        [HttpPost]
+        public async Task<IActionResult> CreatePerson([FromBody]PersonForCreationDto person)
+        {
+            if (person == null)
+            {
+                _logger.LogError("PersonForCreationDto object sent form client is null");
+                return BadRequest("PersonForCreationDto object is null");
+            }
+
+            var createdPerson = await _repo.CreatePerson(person);
+
+            if (createdPerson == null)
+            {
+                _logger.LogError("Person Object could not be created");
+                return StatusCode(500);
+            }
+
+            var personDto = _mapper.Map<PersonDto>(createdPerson);
+
+            return CreatedAtRoute("PersonById", new { id = personDto.Person_Id }, personDto);
+        }
     }
 }
